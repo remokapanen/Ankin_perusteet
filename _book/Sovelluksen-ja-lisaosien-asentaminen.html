@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Sovelluksen ja lisäosien asentaminen | Ankin perusteet</title>
+  <meta name="description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Sovelluksen ja lisäosien asentaminen | Ankin perusteet" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Sovelluksen ja lisäosien asentaminen | Ankin perusteet" />
+  
+  <meta name="twitter:description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  
+
+<meta name="author" content="Remo Kapanen" />
+
+
+<meta name="date" content="2025-07-14" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="asetukset.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Anki</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#srs"><i class="fa fa-check"></i><b>1.1</b> SRS</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html"><i class="fa fa-check"></i><b>2</b> Sovelluksen ja lisäosien asentaminen</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html#lataa-anki-koneelle"><i class="fa fa-check"></i><b>2.1</b> Lataa Anki koneelle</a></li>
+<li class="chapter" data-level="2.2" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html#lisaosat"><i class="fa fa-check"></i><b>2.2</b> Lisäosat</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="asetukset.html"><a href="asetukset.html"><i class="fa fa-check"></i><b>3</b> Asetukset</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="asetukset.html"><a href="asetukset.html#teema"><i class="fa fa-check"></i><b>3.1</b> Teema</a></li>
+<li class="chapter" data-level="3.2" data-path="asetukset.html"><a href="asetukset.html#review"><i class="fa fa-check"></i><b>3.2</b> Review</a></li>
+<li class="chapter" data-level="3.3" data-path="asetukset.html"><a href="asetukset.html#pakan-asetukset"><i class="fa fa-check"></i><b>3.3</b> Pakan asetukset</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="kortti-note-pakka-tagi.html"><a href="kortti-note-pakka-tagi.html"><i class="fa fa-check"></i><b>4</b> Kortti, note, pakka, tagi ???</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="kortti-note-pakka-tagi.html"><a href="kortti-note-pakka-tagi.html#kortti"><i class="fa fa-check"></i><b>4.1</b> Kortti</a></li>
+<li class="chapter" data-level="4.2" data-path="kortti-note-pakka-tagi.html"><a href="kortti-note-pakka-tagi.html#note--tyypit"><i class="fa fa-check"></i><b>4.2</b> Note -tyypit</a></li>
+<li class="chapter" data-level="4.3" data-path="kortti-note-pakka-tagi.html"><a href="kortti-note-pakka-tagi.html#pakka-deck"><i class="fa fa-check"></i><b>4.3</b> Pakka (deck)</a></li>
+<li class="chapter" data-level="4.4" data-path="kortti-note-pakka-tagi.html"><a href="kortti-note-pakka-tagi.html#tagit"><i class="fa fa-check"></i><b>4.4</b> Tagit</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="harjoitellaan.html"><a href="harjoitellaan.html"><i class="fa fa-check"></i><b>5</b> Harjoitellaan</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="harjoitellaan.html"><a href="harjoitellaan.html#omien-pakkojen-luominen"><i class="fa fa-check"></i><b>5.1</b> Omien pakkojen luominen</a></li>
+<li class="chapter" data-level="5.2" data-path="harjoitellaan.html"><a href="harjoitellaan.html#omien-korttien-luominen"><i class="fa fa-check"></i><b>5.2</b> Omien korttien luominen</a></li>
+<li class="chapter" data-level="5.3" data-path="harjoitellaan.html"><a href="harjoitellaan.html#numerot"><i class="fa fa-check"></i><b>5.3</b> Numerot?</a></li>
+<li class="chapter" data-level="5.4" data-path="harjoitellaan.html"><a href="harjoitellaan.html#korttien-kertaaminen"><i class="fa fa-check"></i><b>5.4</b> Korttien kertaaminen</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="harjoitellaan.html"><a href="harjoitellaan.html#again-hard-good-vai-easy"><i class="fa fa-check"></i><b>5.4.1</b> Again, Hard, Good vai Easy?</a></li>
+<li class="chapter" data-level="5.4.2" data-path="harjoitellaan.html"><a href="harjoitellaan.html#kertauksen-yleisperiaatteet"><i class="fa fa-check"></i><b>5.4.2</b> Kertauksen yleisperiaatteet</a></li>
+<li class="chapter" data-level="5.4.3" data-path="harjoitellaan.html"><a href="harjoitellaan.html#keskity"><i class="fa fa-check"></i><b>5.4.3</b> Keskity!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html"><i class="fa fa-check"></i><b>6</b> Synkronointi eri laitteiden välillä</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html#ankiweb"><i class="fa fa-check"></i><b>6.1</b> AnkiWeb</a></li>
+<li class="chapter" data-level="6.2" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html#android-vs-ios"><i class="fa fa-check"></i><b>6.2</b> Android vs iOS</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="notetyypit.html"><a href="notetyypit.html"><i class="fa fa-check"></i><b>7</b> Notetyypit</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="notetyypit.html"><a href="notetyypit.html#basic"><i class="fa fa-check"></i><b>7.1</b> Basic</a></li>
+<li class="chapter" data-level="7.2" data-path="notetyypit.html"><a href="notetyypit.html#cloze-ankingoverhaul"><i class="fa fa-check"></i><b>7.2</b> Cloze (AnKingOverhaul)</a></li>
+<li class="chapter" data-level="7.3" data-path="notetyypit.html"><a href="notetyypit.html#image-occlusion-image-occlusion-enhanced"><i class="fa fa-check"></i><b>7.3</b> Image Occlusion (Image Occlusion Enhanced)</a></li>
+<li class="chapter" data-level="7.4" data-path="notetyypit.html"><a href="notetyypit.html#Lapis-kielia-varten"><i class="fa fa-check"></i><b>7.4</b> Lapis (kieliä varten)</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="Aiheesta-lisaa.html"><a href="Aiheesta-lisaa.html"><i class="fa fa-check"></i><b>8</b> Aiheesta lisää</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ankin perusteet</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="Sovelluksen-ja-lisaosien-asentaminen" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Sovelluksen ja lisäosien asentaminen<a href="Sovelluksen-ja-lisaosien-asentaminen.html#Sovelluksen-ja-lisaosien-asentaminen" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="lataa-anki-koneelle" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Lataa Anki koneelle<a href="Sovelluksen-ja-lisaosien-asentaminen.html#lataa-anki-koneelle" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Anki on ilmainen ohjelma, joka on saatavilla Windowsille, Macille ja Linuxille. Lataa ohjelma osoitteesta <a href="https://apps.ankiweb.net/" class="uri">https://apps.ankiweb.net/</a>.</p>
+</div>
+<div id="lisaosat" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Lisäosat<a href="Sovelluksen-ja-lisaosien-asentaminen.html#lisaosat" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Lisäosat avaavat Ankin oikeat kyvykkyydet. Olen koonnut <a href="addons21.zip"><span class="download-btn">tiedoston</span></a>, jossa on kaikki ainakin nyt alkuun suosittelemani lisäosat.</p>
+<ul>
+<li>Mene Tools -&gt; Add-ons -&gt; Install from file</li>
+</ul>
+<p>Lisäosia voi myös ladata yksitellen koodien avulla: Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code-kohtaan alla olevia koodeja. Yllä olevassa zip-tiedostossa on seuraavat lisäosat:</p>
+<ul>
+<li>Lääketiedepainotteiset
+<ul>
+<li>1957538407 (AnkiCollab)</li>
+<li>952691989 (AnKing Note Types Easy Customization)</li>
+<li>1052724801 (Bettersearch)</li>
+<li>1374772155 (Image Occlusion Enhanced)</li>
+<li>272311064 (Closet For Anki)</li>
+</ul></li>
+<li>Kielipainotteiset
+<ul>
+<li>2055492159 (AnkiConnect)</li>
+</ul></li>
+<li>Yleiset
+<ul>
+<li>1771074083 (Review heatmap)</li>
+<li>1247171202 (Study Time Stats)</li>
+<li>291119185 (Batch editing)</li>
+<li>138501288 (Search and Replace Tags)</li>
+<li>354407385 (Opening the same window multiple times)</li>
+<li>24411424 (Customize Keyboard Shortcuts)</li>
+<li>1362209126 (Quizlet Importer)</li>
+<li>759844606 (FSRS Helper)</li>
+<li>1046608507 (Speed Focus Mode)</li>
+<li>1020366288 (Edit field during review)</li>
+</ul></li>
+</ul>
+<p><em>Aina lisäosien lisäämisen jälkeen on syytä sulkea Anki ja avata se uudestaan.</em></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="asetukset.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-Asentaminen.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf", "_main.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

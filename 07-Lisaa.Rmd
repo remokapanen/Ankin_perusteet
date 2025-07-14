@@ -1,0 +1,6 @@
+# Aiheesta lisää {#Aiheesta-lisaa}
+
+Tämän oppaan tarkoitus oli toimia kiitoratana Ankin käytön aloittamiselle. Anki voi olla aluksi hyvin hämmentävä sovellus, sillä se ei pidä käyttäjäänsä kädestä. 
+
+Ankin tarjoamat mahdollisuudet ovat kuitenkin käytännössä rajattomat. Suosittelen vahvasti jatkossa perehtymään Ankin ominaisuuksiin syvemmin ja muokkamaan omaa ohjelmaasi käyttötarpeittesi mukaiseksi. 
+

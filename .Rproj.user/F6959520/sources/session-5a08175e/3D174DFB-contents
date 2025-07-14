@@ -1,0 +1,67 @@
+# Korttien kertaus
+
+Valitse pakka klikkaamalla sitä -> Study Now 
+-	Kortin alaruudussa näkyy Show Answer -> pääsee kortin kääntöpuolelle 
+-	Kääntöpuolelta löytyy kortin vastaus, mahdollisesti lisätekstiä ja kuvia sekä alareunassa neljä nappia: Again, Hard, Good, Easy 
+ 
+![Vastausnappulat](Images\Answerbar.PNG)
+
+
+Ankin kautta kortteja kerratessa kannattaa hyödyntää shortcutteja. Tässä on yleisimmät shortcutit, jotka kannattaa ottaa haltuun: 
+
+- Spacebar = Show Answer / Good
+- 1 = Again
+- 2 = Hard
+- 3 = Good
+- 4 = Easy 
+- Ctrl + z = Palaa kortti taaksepäin 
+- Ctrl + j -> suspend/unsuspend (hyllyttää/poistaa hyllystä)
+
+                Pro tip: 
+                - Korttien läpikäymiseen voi käyttää myös mm. pelikonsoleiden ohjaimia 
+                - Itse olen bindannut JoyToKey:llä PS4-ohjaimeeni X=3 (good) ja neliö=1 (again) 
+                
+
+## Again, Hard, Good vai Easy? 
+
+- Paina Again, jos et osannut korttia vastausta ennen sen kääntämistä 
+- Paina Good, jos osasit kortin vastauksen ennen sen kääntämistä
+        
+        - Huom! Good tulee painaa myös siinä kohtaa, jos näkee kortin ensimmäistä kertaa. 
+        Tällöin ei tarvitse osata korttia täydellisesti. 
+        Jos kuitenkin seuraavalla tapaamisella et osaa korttia, niin paina Again. 
+
+- Hard- ja Easy -painikkeita kannattaa painaa harvemmin niiden vahvoista vaikutuksista intervallialgoritmeihin johtuen.
+
+
+Nappuloista kannattaa painaa käytännössä vain Good (välilyönti/3) tai Again (1); älä valehtele itsellesi, että ”tiesit” jotain painamalla Hard (2).
+
+- Hard tulee painaa vain, jos oikeasti osasit kortin, mutta se oli selvästi vaikeaa saada muistettua 
+- Hardin painaminen siinä tilanteessa, että ei oikeasti osannut korttia tai oli epävarma vastauksesta, nussii FSRS:n intervallit (vaikka ei käyttäisi FSRS:ää niin perusalgoritmillakin Hardin painaminen johtaa ns. ”ease hell” tilaan, jossa kortin Ease-factor pienee jokaisella Hard-napin painalluksella ja nopeasti kerrattavien korttien määrä nousee turhan suureksi)  
+- Itse en käytännössä koskaan käytä Hard-nappia. Mietin, että jos en ole varma vastauksestani tai sen muistamisessa kestää turhan kauan, en oikeasti osaa kortin materiaalia -> painan again
+
+Easy voi painaa, jos kortti on oikeasti todella helppo eikä koe tarvetta, että niin helppoa korttia tulisi kerrata kovinkaan paljoa. 
+
+- Jos kortti on oikeasti helppo, sen voi myös hyllyttää (suspend), jolloin se poistuu kertauskierrosta 
+
+## Kertauksen yleisperiaatteet
+
+Kaikki kerrattavat kortit tulee kerrata kokonaan joka päivä!
+
+- Älä jätä kortteja kertymään, muuten kerrattavien korttien määrästä tulee nopeasti ylitsepääsemättömän suuri.
+- Suosittelen itse vahvasti kertaamaan kaikki päivän kortit heti ensimmäisenä asiana aamulla, jotta ne eivät jää koskaan unohtumisen takia kertaamatta. Vasta näiden kertausten perään kannattaa katsoa uudet videot ja opiskella uudet kortit.
+
+Jos ei kertaa korttejaan niiden tullessa kerrattaviksi joka päivä, ei tule koskaan nauttimaan Ankin oikeasta hyödystä, eli tietojen liimaamisesta pitkään muistiin.
+
+- Suosittelen kertaamaan kortteja senkin jälkeen, kun se kurssi, jota ne käsittelivät on loppu. Esimerkiksi suurimmasta osasta preklinikassa opetelluista korteista on massiivisesti hyötyä myös klinikassa ja preklinikan oppeja ei kannata unohtaa. 
+
+
+## Keskity! 
+
+Yleisimmin käytän itse ns. ”cloze-deletion” eli kortteja, joissa tulee muistaa vain yksi/muutama sana tietyn lauseen sisällä. Tällaisten korttien kertaamiseen tulisi lähes aina mennä alle 10 sekuntia (päivittäinen sekuntia per kortti -nopeus näkyy aina Ankin alareunasta).
+
+- Ensimmäisellä kierrolla vieraiden korttien kanssa kannattaa tosin usein käyttää enemmän aikaa, jotta ehtii esim. lukea mahdollisen Extra-fieldin tekstin. 
+
+Jos löysäilee ja kuluttaa kortteihin parikin sekuntia enemmän kuin keskittyneenä, kertyy päivittäinen Ankin käyttöaika todella nopeasti. Päivittäiset reviewsit voi helposti kertyä yli 500 korttiin, jonka lisäksi tulee vielä opiskella uusia kortteja.
+
+- Jos kuluttaisi keskittyneenä 8 sekuntia per kortti vs. reelsejä toisella silmällä selaten 12 sekuntia per kortti, kuluttaisit 500 kortin kertaamiseen 67 minuutin sijaan 100 minuuttia. Ja tämä efekti vain korostuu päivittäisten korttimäärien kasvaessa. 

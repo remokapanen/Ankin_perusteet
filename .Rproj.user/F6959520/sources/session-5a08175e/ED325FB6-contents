@@ -1,0 +1,45 @@
+# Sovelluksen ja lisäosien asentaminen
+
+## Lataa Anki koneelle
+
+Anki on ilmainen ohjelma, joka on saatavilla Windowsille, Macille ja Linuxille. Lataa ohjelma osoitteesta https://apps.ankiweb.net/.
+
+## Lisäosat 
+
+Lisäosat avaavat Ankin oikeat kyvykkyydet. Olen koonnut [<span class="download-btn">tiedoston</span>](addons21.zip), jossa on kaikki ainakin nyt alkuun suosittelemani lisäosat. 
+
+
+
+Niiden lataaminen onnistuu Ankin asetuksista: Tools -> Add-ons -> Get Add-ons -> Code-kohtaan alla olevia koodeja
+
+
+
+
+- Lääketiedepainotteiset
+    - 1957538407 (AnkiCollab) 
+    - 952691989 (AnKing Note Types Easy Customization) 
+    - 1052724801 (Bettersearch) 
+    - 1374772155 (Image Occlusion Enhanced)
+    - 272311064 (Closet For Anki) 
+- Kielipainotteiset 
+    - 2055492159 (AnkiConnect) 
+    - 111623432 (HyperTTS) 
+- Yleiset 
+    - 1771074083 (Review heatmap)
+    - 1247171202 (Study Time Stats) 
+    - 291119185 (Batch editing) 
+    - 138501288 (Search and Replace Tags) 
+    - 354407385 (Opening the same window multiple times) 
+    - 24411424 (Customize Keyboard Shortcuts) 
+    - 1362209126 (Quizlet Importer) 
+    - 759844606 (FSRS Helper) 
+    - 1046608507 (Speed Focus Mode) 
+
+
+### AnkiConnect
+
+AnkiConnect on lisäosa, joka mahdollistaa Ankin käyttöön muita ohjelmia. AnkiConnect voidaan ladata osoitteesta https://ankiweb.net/shared/scripts/anki21.ankiaddon.
+
+### AnkiWeb
+
+AnkiWeb on lisäosa, joka mahdollistaa Ankin käyttöön muita ohjelmia. AnkiWeb voidaan ladata osoitteesta https://ankiweb.net/shared/scripts/anki21.ankiaddon.

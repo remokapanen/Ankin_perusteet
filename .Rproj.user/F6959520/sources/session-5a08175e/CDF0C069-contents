@@ -1,0 +1,28 @@
+# Synkronointi eri laitteiden välillä {#Synkronointi-eri-laitteiden-valilla}
+
+Samaa Anki-kokoelmaa voi käyttää eri laitteilla, kunhan vain linkittää kokoelmansa **AnkiWebin** kautta omaan käyttäjätiliinsä.
+
+## AnkiWeb
+
+**AnkiWeb** on käytännössä Ankin ilmainen sisäänrakennettu cloud-palvelu, joka mahdollistaa kokoelman synkronoinnin eri laitteiden välillä.
+
+*- Tools -> Preferences -> Syncing -> AnkiWeb Account -> Log in -> Create account -> Tämän jälkeen voit kirjautua sisään luomallesi AnkiWeb-tilille*
+
+- Kirjautuessa ensimmäistä kertaa AnkiWeb-tilille, voi tulla näkymään seuraava valintaikkuna. Valitse Upload to AnkiWeb, jolloin kokoelma lähetetään AnkiWebiin.
+
+![Kokoelma-AnkiWebiin](Images\AnkiWebSync.PNG)
+
+- Kun kokoelma on ladattu AnkiWebiin, voit käyttää sitä eri laitteilla. Kirjaudu esim. läppärilläsi tai kännykälläsi samalle AnkiWeb-tilille. Synkronoinnin yhteydessä valitse taas Download from AnkiWeb, jolloin laitteellesi latautuu juuri aikaisemmin AnkiWebiin lähettämäsi kokoelma. 
+
+- Nyt aina kerrattuasi kortteja jollain päätelaitteella, paina ylävalikosta **Sync**, jolloin kokoelman nykyinen tilanne lähetetään AnkiWebiin. Siirtyessäsi toiselle päätelaitteelle, voit taas painaa Sync, jolloin muutokset synkronoituvat kyseiselle laitteelle. 
+
+## Android vs iOS   
+
+Ankitilin synkronointi älypuhelimelle on todella hyödyllistä, sillä se mahdollistaa korttien kertaamisen missä tahansa tilanteessa. Tällöin aina luppoajalla tai esim. koulumatkoilla voi plärätä kortteja läpi, mikä säästää aikaa hyvin paljon. 
+
+- Google Play Storesta ladattava **Ankidroid** on ilmainen sovellus 
+
+- iOS:llä taas **AnkiMobile Flashcards** on maksullinen ja maksaa AppStoressa tietääkseni 30 euroa. Suosittelen vahvasti harkitsemaan sovelluksen ostamista, sillä sen säästämä aika on paljon muutamaa kymppiä arvokkaampaa. 
+     
+    - Tämä on ainoa asia, josta Anki velottaa - ainoa tapa miten Anki tuottaa rahaa on iOS-sovelluksellaan. 
+    - Ilmainen vaihtoehto Apple-käyttäjille on käyttää Ankin browser-versiota: https://ankiweb.net/ 
