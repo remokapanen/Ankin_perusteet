@@ -20,12 +20,12 @@ korttien-kertaaminen
 again-hard-good-vai-easy
 kertauksen-yleisperiaatteet
 keskity
-Synkronointi-eri-laitteiden-valilla
-ankiweb
-android-vs-ios
 notetyypit
 basic
 cloze-ankingoverhaul
 image-occlusion-image-occlusion-enhanced
 Lapis-kielia-varten
+Synkronointi-eri-laitteiden-valilla
+ankiweb
+android-vs-ios
 Aiheesta-lisaa

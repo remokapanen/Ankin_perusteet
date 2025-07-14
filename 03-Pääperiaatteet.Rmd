@@ -10,7 +10,7 @@ Kysymys-vastaus-paria kutsutaan kortiksi (card). Se on hyvin samanlainen kuin fy
 
 ## Note -tyypit
 
-Kts. aiheesta tarkemmin osiossa 6.
+Kts. aiheesta tarkemmin osiossa 5.
 
 Ankissa voi luoda todella monta erityyppistä korttia. Tässä niistä tärkeimmät:
 
