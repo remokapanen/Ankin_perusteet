@@ -26,13 +26,15 @@ Poistu Preferences-valikosta ja valitse jokin pakoistasi. Jos et ole ennen käyt
 
 - Paina hyrrää pakan oikeasta laidasta ja valitse "Options"
 
-- Suosittelen käyttämään FSRS-algoritmia, sen saa päälle klikkaamalla FSRS-nappia. Muuta sen jälkeen asetukset seuraavasti:
+- Suosittelen käyttämään FSRS-algoritmia, sen saa päälle klikkaamalla FSRS-nappia -> FSRS päälle -> Desired retention 90% (oman maun mukaan, suosittelen 90%) -> Optimize Current Preset. Muuta sen jälkeen asetukset seuraavasti:
 
 ![](Images\Deck_settings.PNG)
 
 - Paina "Save" ja sulje Options-valikko. 
 
-Suosittelen ainakin jossain kohtaa opettelemaan, mitä eri asetukset tekevät. Sitten kun tietää perusteet Ankin algoritmista, voi muokata asetuksia oman maun mukaan. 
+Suosittelen ainakin jossain kohtaa opettelemaan, mitä eri asetukset tekevät. Sitten kun tietää perusteet Ankin algoritmista, voi muokata asetuksia oman maun mukaan. Mahdollisia muokkauksia jo tässä vaiheessa: 
+
+- Burying voi laittaa kaikki päälle, jos haluaa nähdä ezim. saman kortin cloze 2:sen seuraavana päivänä sen sijaan, että tekee kortin kaikki clozet samana päivänä (saman kortin eri clozet voivat olla liian helppoja, jos ne tekee samana päivänä) 
 
 
 
