@@ -36,11 +36,11 @@ Yhden emopakan alla kortteja voi erotella aihepiireittäin omiin alapakkoihinsa.
 
 - Monet esimerkiksi jakavat yhden kurssin kortit aina luennoittain eri alapakkoihin. 
 
-**- En itse tosin enää käytä alapakkoja,** koska _tägien_ avulla kortit voidaan organisoida paljon tehokkaammin. 
+- **En itse tosin enää käytä alapakkoja,** koska _tägien_ avulla kortit voidaan organisoida paljon tehokkaammin. 
 
 Alapakkoja voi luoda kahdella tavalla:
 
-- raahaamalla uuden pakan emopakan
+- raahaamalla uuden pakan emopakan päälle
 
 - kirjoittamalla uuden pakan nimeksi emopakka::alapakka (voi jatkaa vielä eteenpäin esim. emopakka::alapakka::alapakka::alapakka::...)
 
@@ -134,16 +134,17 @@ Saman ja jopa eri pakkojen välillä kortteja voi luokitella tägien avulla. Esi
 - Taas alapakasta löytyvää tägitöntä korttia ei voi löytyä mistään muualta kuin vain siitä alapakasta, jossa se on. Jos esimerkiksi olet tehnyt kortin Koulu::Kurssi1::Luento1 -alapakan alle, mutta aihetta käsitellään myös Kurssilla 2 luennolla 3, et pystyisi opiskelemaan tätä samaa korttia molemmista alapakoista, sillä yksi kortti voi olla vain yhdessä pakassa. 
 - Jos kaikki korttisi taas ovat Koulu-emopakan alla ja jaottelet kortin sen sisällä tägin mukaan, voisi kortti olla Koulu::Kurssi1::Luento1 -tägin alla sekä Koulu::Kurssi2::Luento3 -tägin alla, jolloin samasta aiheesta ei tarvitse tehdä uutta korttia, jos haluat liittää sen uuden kurssin korttikokonaisuuden alle. 
 
-- Tägien avulla voit myös helposti suspendaa (hyllyttää) ja unsuspendaa kortteja, joita et halua/haluat pitää kertauskierrossasi. Pystyt myös luomaan suodatettuja pakkoja, joiden avulla voit mm. päntätä kortteja ennen tenttiä, jos siltä tuntuu (pänttääminen juuri ennen tenttiä ei kuitenkaan ole Ankin pääasiallinen käyttötarkoitus). 
+Tägien avulla voit myös helposti suspendaa (hyllyttää) ja unsuspendaa kortteja, joita et halua/haluat pitää kertauskierrossasi. Pystyt myös luomaan suodatettuja pakkoja, joiden avulla voit mm. päntätä kortteja ennen tenttiä, jos siltä tuntuu (pänttääminen juuri ennen tenttiä ei kuitenkaan ole Ankin pääasiallinen käyttötarkoitus). 
 
-    - Kts. [Filtered-pakkojen opetusvideo](https://youtu.be/l1v1TqRTUUE?si=f9oUUWTJUpDcuRdS) AnKingilta
+- Kts. [Filtered-pakkojen opetusvideo](https://youtu.be/l1v1TqRTUUE?si=f9oUUWTJUpDcuRdS) AnKingilta
 
-- Korttien tägäämisen periaatteet ovat seuraavat: 
+Korttien tägäämisen periaatteet ovat seuraavat: 
 
-    - Kortilla voi olla emotagi ja sen alla alatägejä. Alatägit erotellaan emotägistä kahdella kaksoispisteellä. Esimerkiksi Emopakka::Alapakka::Alapakka1
-        - Periaate on siis sama kuin emopakoilla ja alapakoilla 
-    - Kortteja voi tägätä joko suoraan niitä luodessa tai myöhemmin niitä editoidessa. Browse-näkymästä voi myös tägätä useita kortteja kerralla (voi myös poistaa tägejä)
-    **- HUOM! Tägien nimissä ei voi olla välilyöntiä,** käytä alaviivoja niiden tilalla. Esimerkiksi: Koulu::Kurssi1::Pienimmät_valtiot
+- Kortilla voi olla emotagi ja sen alla alatägejä. Alatägit erotellaan emotägistä kahdella kaksoispisteellä. Esimerkiksi Emopakka::Alapakka::Alapakka1
+    - Periaate on siis sama kuin emopakoilla ja alapakoilla 
+    
+- Kortteja voi tägätä joko suoraan niitä luodessa tai myöhemmin niitä editoidessa. Browse-näkymästä voi myös tägätä useita kortteja kerralla (voi myös poistaa tägejä)
+    - **HUOM! Tägien nimissä ei voi olla välilyöntiä,** käytä alaviivoja niiden tilalla. Esimerkiksi: Koulu::Kurssi1::Pienimmät_valtiot
 
   ![](Images\Tagit.gif)  
 
