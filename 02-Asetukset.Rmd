@@ -6,7 +6,7 @@ Ankin vanilja-asetukset eivät ole optimaaliset, jonka takia suosittelen muokkaa
 
 ## Teema 
 
-Light-teema on hyvin kirkas ja mielestäni epämiellyttävä, suosittelen sen vaihtamista (Rankin default-värit ovat myös suunniteltu Dark-teemalle). 
+Light-teema on hyvin kirkas ja mielestäni epämiellyttävä, suosittelen sen vaihtamista (Rankin default-värit ovat myös suunniteltu Dark-teemalle, joten ne näyttävät huonoilta Light-teemalla). 
 
 - Mene Tools -> Preferences -> Appearance -> Theme -> Dark
 
@@ -16,9 +16,9 @@ Samasta Preferences-ikkunasta voit muokata myös Review-asetuksia.
 
 - Tools -> Preferences -> Review -> Learn ahead limit 25 mins
 
-Muuten Prefereces-ikkunan asetukset voi jättää default-arvoihin. 
+Muuten Preferences-ikkunan asetukset voi jättää default-arvoihin. 
 
-![Preferences](Images\Preferences.gif)
+![](Images\Preferences.gif)
 
 ## Pakan asetukset 
 
@@ -28,7 +28,7 @@ Poistu Preferences-valikosta ja valitse jokin pakoistasi. Jos et ole ennen käyt
 
 - Suosittelen käyttämään FSRS-algoritmia, sen saa päälle klikkaamalla FSRS-nappia. Muuta sen jälkeen asetukset seuraavasti:
 
-![Pakan asetukset](Images\Deck_settings.PNG)
+![](Images\Deck_settings.PNG)
 
 - Paina "Save" ja sulje Options-valikko. 
 
