@@ -17,7 +17,7 @@ github-repo: rstudio/bookdown-demo
 
 Anki on yleisimmin käytetty, parhaiten tuettu ja ominaisuuksiltaan kattavin spaced repetition system (SRS) -pohjainen muistikorttiohjelma. 
 
-- Virallinen opas Ankin perusteista löytyy [täältä](https://docs.ankiweb.net/intro.html). Tämä opas on tarkoitettu lyhyeksi introksi Ankin maailmaan ja sen käyttöön. 
+- Virallinen opas Ankin perusteista löytyy [täältä](https://docs.ankiweb.net/intro.html). Tämä opas on tarkoitettu lyhyeksi ja käytännönläheiseksi introksi Ankin maailmaan ja sen käyttöön. 
 
 ## SRS 
 

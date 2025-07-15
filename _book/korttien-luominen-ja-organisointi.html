@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Korttien luominen ja organisointi | Ankin perusteet</title>
+  <meta name="description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Korttien luominen ja organisointi | Ankin perusteet" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Korttien luominen ja organisointi | Ankin perusteet" />
+  
+  <meta name="twitter:description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  
+
+<meta name="author" content="Remo Kapanen" />
+
+
+<meta name="date" content="2025-07-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="asetukset.html"/>
+<link rel="next" href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Ankin perusteet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Anki</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#srs"><i class="fa fa-check"></i><b>1.1</b> SRS</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html"><i class="fa fa-check"></i><b>2</b> Sovelluksen ja lisäosien asentaminen</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html#lataa-anki-koneelle"><i class="fa fa-check"></i><b>2.1</b> Lataa Anki koneelle</a></li>
+<li class="chapter" data-level="2.2" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html#lisaosat"><i class="fa fa-check"></i><b>2.2</b> Lisäosat</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="asetukset.html"><a href="asetukset.html"><i class="fa fa-check"></i><b>3</b> Asetukset</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="asetukset.html"><a href="asetukset.html#teema"><i class="fa fa-check"></i><b>3.1</b> Teema</a></li>
+<li class="chapter" data-level="3.2" data-path="asetukset.html"><a href="asetukset.html#review"><i class="fa fa-check"></i><b>3.2</b> Review</a></li>
+<li class="chapter" data-level="3.3" data-path="asetukset.html"><a href="asetukset.html#pakan-asetukset"><i class="fa fa-check"></i><b>3.3</b> Pakan asetukset</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html"><i class="fa fa-check"></i><b>4</b> Korttien luominen ja organisointi</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#collection-deck-subdeck-note-card-tag-subtag"><i class="fa fa-check"></i><b>4.1</b> Collection, Deck, Subdeck, Note, Card, Tag, Subtag ???</a></li>
+<li class="chapter" data-level="4.2" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#pakan-luominen"><i class="fa fa-check"></i><b>4.2</b> Pakan luominen</a></li>
+<li class="chapter" data-level="4.3" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#alapakkojen-luominen"><i class="fa fa-check"></i><b>4.3</b> Alapakkojen luominen</a></li>
+<li class="chapter" data-level="4.4" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#korttien-luominen"><i class="fa fa-check"></i><b>4.4</b> Korttien luominen</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#basic-kortti"><i class="fa fa-check"></i><b>4.4.1</b> Basic-kortti</a></li>
+<li class="chapter" data-level="4.4.2" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#cloze-kortti"><i class="fa fa-check"></i><b>4.4.2</b> Cloze-kortti</a></li>
+<li class="chapter" data-level="4.4.3" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#image-occlusion-enhanced-kortti"><i class="fa fa-check"></i><b>4.4.3</b> Image Occlusion Enhanced-kortti</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#tagit"><i class="fa fa-check"></i><b>4.5</b> Tagit</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#tagien-etsiminen"><i class="fa fa-check"></i><b>4.5.1</b> Tagien etsiminen</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><i class="fa fa-check"></i><b>5</b> Korttien kertaaminen ja valmiiden pakkojen lataaminen</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#valmiiden-pakkojen-lataaminen"><i class="fa fa-check"></i><b>5.1</b> Valmiiden pakkojen lataaminen</a></li>
+<li class="chapter" data-level="5.2" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#numerot"><i class="fa fa-check"></i><b>5.2</b> Numerot?</a></li>
+<li class="chapter" data-level="5.3" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#korttien-kertaaminen"><i class="fa fa-check"></i><b>5.3</b> Korttien kertaaminen</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#shortcutit"><i class="fa fa-check"></i><b>5.3.1</b> Shortcutit</a></li>
+<li class="chapter" data-level="5.3.2" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#again-hard-good-vai-easy"><i class="fa fa-check"></i><b>5.3.2</b> Again, Hard, Good vai Easy?</a></li>
+<li class="chapter" data-level="5.3.3" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#kertauksen-yleisperiaatteet"><i class="fa fa-check"></i><b>5.3.3</b> Kertauksen yleisperiaatteet</a></li>
+<li class="chapter" data-level="5.3.4" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#keskity"><i class="fa fa-check"></i><b>5.3.4</b> Keskity!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html"><i class="fa fa-check"></i><b>6</b> Synkronointi eri laitteiden välillä</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html#ankiweb"><i class="fa fa-check"></i><b>6.1</b> AnkiWeb</a></li>
+<li class="chapter" data-level="6.2" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html#android-vs-ios"><i class="fa fa-check"></i><b>6.2</b> Android vs iOS</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="anki-ei-ole-kaikki-kaikessa.html"><a href="anki-ei-ole-kaikki-kaikessa.html"><i class="fa fa-check"></i><b>7</b> Anki ei ole kaikki kaikessa</a></li>
+<li class="chapter" data-level="8" data-path="Aiheesta-lisaa.html"><a href="Aiheesta-lisaa.html"><i class="fa fa-check"></i><b>8</b> Aiheesta lisää</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank"></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ankin perusteet</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="korttien-luominen-ja-organisointi" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Korttien luominen ja organisointi<a href="korttien-luominen-ja-organisointi.html#korttien-luominen-ja-organisointi" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Nyt kun olet asentanut Ankin, käydään läpi pakkojen ja korttien luomisen perusteet sekä niiden jaottelun perusperiaatteet.</p>
+<div id="collection-deck-subdeck-note-card-tag-subtag" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Collection, Deck, Subdeck, Note, Card, Tag, Subtag ???<a href="korttien-luominen-ja-organisointi.html#collection-deck-subdeck-note-card-tag-subtag" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Terminologia voi olla hieman epäselvää, mutta periaatteet ovat seuraavat:</p>
+<ul>
+<li><p>Collection (Kokoelma) = Kaikki kortit ja pakat mitä Anki-käyttäjällesi on tallennettu</p></li>
+<li><p>Deck (Pakka) = Kaikki nämä perusteet käydään käytännössä läpi osiossa 3. Tässä on vain yleiskuva siitä, mitä nämä ovat.</p></li>
+<li><p>Subdeck (Alapakka) = Pakka, jonka avulla emopakan kortteja voidaan erotella.</p></li>
+<li><p>Note = Kortin pohja, jonka tyylisiksi erilaiset muistikortit luodaan</p></li>
+<li><p>Card (Kortti) = Itse muistikortti, joka luodaan note-tyypistä</p></li>
+<li><p>Tag (Tägi) = Korttien organisoimiseen tarkoitettu leima, jonka kortille voi antaa.</p></li>
+<li><p>Subtag (Alatägi) = Tägi, jonka avulla ylätägin kortteja voidaan erotella</p></li>
+</ul>
+</div>
+<div id="pakan-luominen" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Pakan luominen<a href="korttien-luominen-ja-organisointi.html#pakan-luominen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Kun avaa Ankin ensimmäistä kertaa, sinulla on vain yksi pakka, joka on nimeltään “Default”.</p>
+<ul>
+<li><p>Jos haluat luoda uuden pakan, voit tehdä sen klikkaamalla “Create Deck” -painiketta.</p></li>
+<li><p>Pakan nimi voi olla mitä haluat, mutta suosittelen nimeämään sen opiskelemalle aiheellesi sopivaksi. (Huom. Default-pakka muuttuu uudeksi pakaksesi tässä alkuvaiheessa)</p></li>
+</ul>
+<p><img src="Images/Firstdeck.gif" /></p>
+</div>
+<div id="alapakkojen-luominen" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Alapakkojen luominen<a href="korttien-luominen-ja-organisointi.html#alapakkojen-luominen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Yhden emopakan alla kortteja voi erotella aihepiireittäin omiin alapakkoihinsa. Tämä auttaa, kun haluaa opiskella hieman erilaisia aiheita erikseen.</p>
+<ul>
+<li>Monet esimerkiksi jakavat yhden kurssin kortit aina luennoittain eri alapakkoihin.</li>
+</ul>
+<p><strong>- En itse tosin enää käytä alapakkoja,</strong> koska <em>tägien</em> avulla kortit voidaan organisoida paljon tehokkaammin.</p>
+<p>Alapakkoja voi luoda kahdella tavalla:</p>
+<ul>
+<li><p>raahaamalla uuden pakan emopakan</p></li>
+<li><p>kirjoittamalla uuden pakan nimeksi emopakka::alapakka (voi jatkaa vielä eteenpäin esim. emopakka::alapakka::alapakka::alapakka::…)</p></li>
+</ul>
+<div class="float">
+<img src="Images/Subdeck-Drag.gif" alt="Alapakkojen luominen raahaamalla" />
+<div class="figcaption">Alapakkojen luominen raahaamalla</div>
+</div>
+<div class="float">
+<img src="Images/Subdeck-Name.gif" alt="Alapakkojen luominen kirjoittamalla" />
+<div class="figcaption">Alapakkojen luominen kirjoittamalla</div>
+</div>
+</div>
+<div id="korttien-luominen" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Korttien luominen<a href="korttien-luominen-ja-organisointi.html#korttien-luominen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Kysymys-vastaus-paria kutsutaan <strong>kortiksi (card).</strong> Se on hyvin samanlainen kuin fyysinen muistikortti eli paperi, jonka toisella puolella on kysymys ja toisella vastaus.</p>
+<ul>
+<li><p>Se pohja, jonka tyylisiksi erilaiset kortit luodaan, on nimeltään <strong>note type.</strong></p>
+<ul>
+<li>Ankista natiivistikin löytyvä <strong>“Basic”</strong> on yksinkertainen kortti, jossa on vain kysymys ja vastaus. Voi myös luoda Basic (and reversed card), jolloin luodaan kaksi korttia kirjoitetusta teksistä: etu -&gt; taka ja taka -&gt; etu</li>
+<li><strong>“Cloze”</strong> on kortti, jossa on teksti, josta on poistettu joitakin sanoja. Kortin vastaus on piilotetut sanat. Tämä on yleisimmin käyttämäni korttityyppi ja Ranki pääasiassa sisältää vain näitä.</li>
+<li><strong>“Image occlusion”</strong> -notella pystyy piilottamaan osia kuvista; mahtava tapa opiskella esim. anatomiaa</li>
+</ul></li>
+<li><p>Jos lataat jonkin pakan, jossa on uusia notetyyppejä, voit sen jälkeen luoda niitä myös itse. Esim. Rankin tai kappaleessa 5 tarjotun harjoituspakan ladattuasi pystyt myös itse käyttää AnKingOverhaul-pohjaa.</p></li>
+</ul>
+<div id="basic-kortti" class="section level3 hasAnchor" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> Basic-kortti<a href="korttien-luominen-ja-organisointi.html#basic-kortti" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Luodaan aluksi Basic-tyyppinen kortti. En itse käytä näitä kovinkaan paljoa enää, mutta jopa jo tällä peruskorttityypillä pääsee oikeasti hyvin pitkälle.</p>
+<ul>
+<li><p>Korttien luominen tapahtuu klikkaamalla “Add” -painiketta, valitsemalla pakan johon haluaa korttien menevän ja valitsemalla Type-valikosta haluamasi note-tyypin.</p></li>
+<li><p>Kun painaa Add (Lisää) -painiketta, kortti luodaan ja se siirtyy pakkaasi.</p></li>
+</ul>
+<p><img src="Images/AddCard.gif" /></p>
+<p>Basic-notetyypillä voi luoda ns. klassisen muistikortin. Front (etupuoli) -kohtaan kirjoitetaan kysymys tai selitettävä termi. Back (kääntöpuoli) -kohtaan oikea vastaus ja esim. selittäviä kuvia luentodioista.</p>
+<p><img src="Images/Basic.PNG" /></p>
+</div>
+<div id="cloze-kortti" class="section level3 hasAnchor" number="4.4.2">
+<h3><span class="header-section-number">4.4.2</span> Cloze-kortti<a href="korttien-luominen-ja-organisointi.html#cloze-kortti" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Luodaan seuraavaksi Cloze-tyyppinen kortti. Suurin osa tekemistäni korteista on nykyään tämän tyyppisiä ja suositteleen vahvasti opettelemaan näiden käytön.</p>
+<ul>
+<li><p>Tarkalleen ottaen en käytä vanilja Cloze-notetyyppiä koskaan, vaan käytän <strong>AnKingOverhaul-korttipohjaa,</strong> joka on käytännössä Cloze-kortti steroideilla. Kts. AnKingOverhaul-tutoriaali [täältä].</p></li>
+<li><p>Cloze-kortti luodaan kirjoittamalla tekstiä etupuolella ja painamalla […] tai […+] -painiketta, joilla osa tekstistä piilotetaan.</p></li>
+</ul>
+<p><img src="Images/Cloze.gif" /></p>
+<p>Kuten huomaat, niin Cloze-kortin rakenne on hieman erilainen kuin Basic-kortin. Cloze-kortissa kysymys on jokin sana/lause, joka on piilotettu. Kääntöpuolella piilotettu osa paljastuu ja myös mahdollinen extra-teksti vapautuu luettavaksi.</p>
+<p><img src="Images/BasicVsCloze.gif" /></p>
+<p>Clozeja voi yhdessä kortissa olla useita. Tässä tapauksessa tulee painaa […+] -painiketta, jolloin seuraavaksi piilotettava osa saa yhden isomman arvon clozelleen. Tämä cloze piilotetaan eri kerralla. Samasta notesta siis rakentuu niin monta korttia kuin numeroa clozeissa.</p>
+<p><img src="Images/Cloze2.gif" /></p>
+<p>Näin kortti toimii:</p>
+<p><img src="Images/Cloze2action.gif" /></p>
+<p>Saman clozenumeron alla voi myös olla useita piilotettuja kohtia. Tämä on hyödyllistä, kun haluaa opiskella esim. listoja ulkoa.</p>
+<p><img src="Images/Cloze111.gif" /></p>
+<p>Listan voi myös erotella aikaisempaan tyyliin useaan clozeen, jotka kysytään erikseen.</p>
+<p><img src="Images/Cloze123.gif" /></p>
+<p>Myöhemmin voi vielä opetella luomaan ns. <strong>Cloze one-by-one-kortteja,</strong> joiden tekemiseen vaatii AnKingOverhaul-korttipohjan (kts. [AnkingOverhaul-tutoriaali])</p>
+</div>
+<div id="image-occlusion-enhanced-kortti" class="section level3 hasAnchor" number="4.4.3">
+<h3><span class="header-section-number">4.4.3</span> Image Occlusion Enhanced-kortti<a href="korttien-luominen-ja-organisointi.html#image-occlusion-enhanced-kortti" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Image Occlusion-kortit ovat kortteja, joissa on kuva, josta on piilotettu osa. Kortin vastaus on piilotetun osan alla.</p>
+<ul>
+<li><p>Suosittelen käyttämään Image Occlusion Enhanced-korttipohjaa, joka mahdollistaa Image Occlusion-tyylin tehokkaaman käytön. Tämän saa käyttöönsä, kun lataa Image Occlusion Enhanced-lisäosan (kts. Asetukset). Tässä on korttipohjalle <a href="https://youtu.be/hyU2W7VgBmw?si=PLgXpjtTYiY3pNB7">Ankingin opetusvideo</a></p></li>
+<li><p>Korttien luominen on helppoa. Ota snipping toolilla kuva tai kopioi jokin kuva clipboardillesi. Paina sen jälkeen Add Image Occlusion -painiketta. Tämän jälkeen voit peittää kuvasta haluamasi osiot.</p></li>
+<li><p>Lopuksi voit valita kumman tyylisiä kortteja haluat luoda. Hide All, Guess One tarkoittaa, että korttia kerratessasi kaikki laatikot ovat kuvassa samalla kerralla, mutta vain yhtä laatikkoa kysytään (eri värinen). Hide One, Guess One tarkoittaa, että korttia kerratessasi vain yksi laatikoista on samaan aikaan kuvan edessä ja vain kyseistä laatikkoa kysytään sillä kerralla.</p></li>
+</ul>
+<p><img src="Images/ImageOcclusion.gif" /></p>
+<p>Korttia voi myöhemmin muokata ja lisätä siihen selityksiä ja vaikka lisää kuvia samasta aiheesta (yleensä Extra-kenttiin)</p>
+<ul>
+<li>Tykkään itse tehdä usein anatomiaan liittyvistä korteista Hide All, Guess One -tyyppisiä kortteja. Tällöin lisään myös Sources-kenttään alkuperäisen kuvan, jotta korttia kerratessa voin nopeasti selata alaspäin ja nähdä myös muiden laatikoiden alla olevat vastaukset.</li>
+</ul>
+<p><img src="Images/ImageOcclusionEdit.gif" /></p>
+<ul>
+<li>Myöhemmin voi vielä opetella luomaan ns. <strong>Image Occlusion one-by-one-kortteja,</strong> joiden tekemiseen vaatii AnKingOverhaul-korttipohjan ja Closet for anki-lisäosan (kts. [AnkingOverhaul-tutoriaali])</li>
+</ul>
+</div>
+</div>
+<div id="tagit" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Tagit<a href="korttien-luominen-ja-organisointi.html#tagit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Saman ja jopa eri pakkojen välillä kortteja voi luokitella tägien avulla. Esimerkiksi [Ranki] on jaoteltu pelkästään tägien avulla.</p>
+<ul>
+<li><p>Tägien hyöty verrattuna alapakkoihin on se, että yksi ja sama kortti voi olla useissa eri kokonaisuuksissa sen mukaan, mitä tägeja siinä on. Etsimällä haluamansa tägin voi opiskella kyseisen tägin kortteja.</p></li>
+<li><p>Taas alapakasta löytyvää tägitöntä korttia ei voi löytyä mistään muualta kuin vain siitä alapakasta, jossa se on. Jos esimerkiksi olet tehnyt kortin Koulu::Kurssi1::Luento1 -alapakan alle, mutta aihetta käsitellään myös Kurssilla 2 luennolla 3, et pystyisi opiskelemaan tätä samaa korttia molemmista alapakoista, sillä yksi kortti voi olla vain yhdessä pakassa.</p></li>
+<li><p>Jos kaikki korttisi taas ovat Koulu-emopakan alla ja jaottelet kortin sen sisällä tägin mukaan, voisi kortti olla Koulu::Kurssi1::Luento1 -tägin alla sekä Koulu::Kurssi2::Luento3 -tägin alla, jolloin samasta aiheesta ei tarvitse tehdä uutta korttia, jos haluat liittää sen uuden kurssin korttikokonaisuuden alle.</p></li>
+<li><p>Tägien avulla voit myös helposti suspendaa (hyllyttää) ja unsuspendaa kortteja, joita et halua/haluat pitää kertauskierrossasi. Pystyt myös luomaan suodatettuja pakkoja, joiden avulla voit mm. päntätä kortteja ennen tenttiä, jos siltä tuntuu (pänttääminen juuri ennen tenttiä ei kuitenkaan ole Ankin pääasiallinen käyttötarkoitus).</p>
+<ul>
+<li>Kts. <a href="https://youtu.be/l1v1TqRTUUE?si=f9oUUWTJUpDcuRdS">Filtered-pakkojen opetusvideo</a> AnKingilta</li>
+</ul></li>
+<li><p>Korttien tägäämisen periaatteet ovat seuraavat:</p>
+<ul>
+<li>Kortilla voi olla emotagi ja sen alla alatägejä. Alatägit erotellaan emotägistä kahdella kaksoispisteellä. Esimerkiksi Emopakka::Alapakka::Alapakka1
+<ul>
+<li>Periaate on siis sama kuin emopakoilla ja alapakoilla</li>
+</ul></li>
+<li>Kortteja voi tägätä joko suoraan niitä luodessa tai myöhemmin niitä editoidessa. Browse-näkymästä voi myös tägätä useita kortteja kerralla (voi myös poistaa tägejä)
+<strong>- HUOM! Tägien nimissä ei voi olla välilyöntiä,</strong> käytä alaviivoja niiden tilalla. Esimerkiksi: Koulu::Kurssi1::Pienimmät_valtiot</li>
+</ul>
+<p><img src="Images/Tagit.gif" /></p></li>
+</ul>
+<div id="tagien-etsiminen" class="section level3 hasAnchor" number="4.5.1">
+<h3><span class="header-section-number">4.5.1</span> Tagien etsiminen<a href="korttien-luominen-ja-organisointi.html#tagien-etsiminen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Tägejä voi etsiä tehokkaasti, kunhan on ladannut BetterSearch-lisäosan</p>
+<ul>
+<li><p>Paina Browse-näkymän Search-barissa xx -&gt; kirjoita se tägi, jota etsit -&gt; paina Enter -&gt; paina uudestaan Enter</p></li>
+<li><p>Tällä tavalla voi esim. etsiä tiettyyn Sketchy-videoon sopivat kortit.</p></li>
+</ul>
+<p><img src="Images/xx.gif" /></p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="asetukset.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-Pääperiaatteet.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf", "_main.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

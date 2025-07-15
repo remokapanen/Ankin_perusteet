@@ -1,0 +1,7 @@
+# Anki ei ole kaikki kaikessa 
+
+Anki on käytännössä vain työkalu, jolla voi helpottaa ja tehostaa opittujen asioiden **kertaamista.** 
+
+- Ankia ei ole siis suoraan tarkoitettu asioiden _oppimiseen._ Monet varsinkin lääkiksessä tekevät sen virheen, että he lataavat valmiin pakan ja hyppäävät sen kortteihin suoraan. Tällöin voi muodostua hyvin pinnallinen käsitys aiheesta. 
+- Tämä saattaa toimia joskus ihan hyvinkin, mutta paras tapa käyttää Ankia on opiskella ja _ymmärtää_ materiaali kattavasti ennen kuin aloittaa korttien kertaamisen. Yleinen periaate onkin: ymmärrä ensin, kertaa myöhemmin. 
+

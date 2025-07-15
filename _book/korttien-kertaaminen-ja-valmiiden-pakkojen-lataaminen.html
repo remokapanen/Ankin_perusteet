@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Korttien kertaaminen ja valmiiden pakkojen lataaminen | Ankin perusteet</title>
+  <meta name="description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Korttien kertaaminen ja valmiiden pakkojen lataaminen | Ankin perusteet" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Korttien kertaaminen ja valmiiden pakkojen lataaminen | Ankin perusteet" />
+  
+  <meta name="twitter:description" content="Lyhyt opas Ankin käytön aloittamiseen." />
+  
+
+<meta name="author" content="Remo Kapanen" />
+
+
+<meta name="date" content="2025-07-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="korttien-luominen-ja-organisointi.html"/>
+<link rel="next" href="Synkronointi-eri-laitteiden-valilla.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Ankin perusteet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Anki</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#srs"><i class="fa fa-check"></i><b>1.1</b> SRS</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html"><i class="fa fa-check"></i><b>2</b> Sovelluksen ja lisäosien asentaminen</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html#lataa-anki-koneelle"><i class="fa fa-check"></i><b>2.1</b> Lataa Anki koneelle</a></li>
+<li class="chapter" data-level="2.2" data-path="Sovelluksen-ja-lisaosien-asentaminen.html"><a href="Sovelluksen-ja-lisaosien-asentaminen.html#lisaosat"><i class="fa fa-check"></i><b>2.2</b> Lisäosat</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="asetukset.html"><a href="asetukset.html"><i class="fa fa-check"></i><b>3</b> Asetukset</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="asetukset.html"><a href="asetukset.html#teema"><i class="fa fa-check"></i><b>3.1</b> Teema</a></li>
+<li class="chapter" data-level="3.2" data-path="asetukset.html"><a href="asetukset.html#review"><i class="fa fa-check"></i><b>3.2</b> Review</a></li>
+<li class="chapter" data-level="3.3" data-path="asetukset.html"><a href="asetukset.html#pakan-asetukset"><i class="fa fa-check"></i><b>3.3</b> Pakan asetukset</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html"><i class="fa fa-check"></i><b>4</b> Korttien luominen ja organisointi</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#collection-deck-subdeck-note-card-tag-subtag"><i class="fa fa-check"></i><b>4.1</b> Collection, Deck, Subdeck, Note, Card, Tag, Subtag ???</a></li>
+<li class="chapter" data-level="4.2" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#pakan-luominen"><i class="fa fa-check"></i><b>4.2</b> Pakan luominen</a></li>
+<li class="chapter" data-level="4.3" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#alapakkojen-luominen"><i class="fa fa-check"></i><b>4.3</b> Alapakkojen luominen</a></li>
+<li class="chapter" data-level="4.4" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#korttien-luominen"><i class="fa fa-check"></i><b>4.4</b> Korttien luominen</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#basic-kortti"><i class="fa fa-check"></i><b>4.4.1</b> Basic-kortti</a></li>
+<li class="chapter" data-level="4.4.2" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#cloze-kortti"><i class="fa fa-check"></i><b>4.4.2</b> Cloze-kortti</a></li>
+<li class="chapter" data-level="4.4.3" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#image-occlusion-enhanced-kortti"><i class="fa fa-check"></i><b>4.4.3</b> Image Occlusion Enhanced-kortti</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#tagit"><i class="fa fa-check"></i><b>4.5</b> Tagit</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="korttien-luominen-ja-organisointi.html"><a href="korttien-luominen-ja-organisointi.html#tagien-etsiminen"><i class="fa fa-check"></i><b>4.5.1</b> Tagien etsiminen</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><i class="fa fa-check"></i><b>5</b> Korttien kertaaminen ja valmiiden pakkojen lataaminen</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#valmiiden-pakkojen-lataaminen"><i class="fa fa-check"></i><b>5.1</b> Valmiiden pakkojen lataaminen</a></li>
+<li class="chapter" data-level="5.2" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#numerot"><i class="fa fa-check"></i><b>5.2</b> Numerot?</a></li>
+<li class="chapter" data-level="5.3" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#korttien-kertaaminen"><i class="fa fa-check"></i><b>5.3</b> Korttien kertaaminen</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#shortcutit"><i class="fa fa-check"></i><b>5.3.1</b> Shortcutit</a></li>
+<li class="chapter" data-level="5.3.2" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#again-hard-good-vai-easy"><i class="fa fa-check"></i><b>5.3.2</b> Again, Hard, Good vai Easy?</a></li>
+<li class="chapter" data-level="5.3.3" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#kertauksen-yleisperiaatteet"><i class="fa fa-check"></i><b>5.3.3</b> Kertauksen yleisperiaatteet</a></li>
+<li class="chapter" data-level="5.3.4" data-path="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html"><a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#keskity"><i class="fa fa-check"></i><b>5.3.4</b> Keskity!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html"><i class="fa fa-check"></i><b>6</b> Synkronointi eri laitteiden välillä</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html#ankiweb"><i class="fa fa-check"></i><b>6.1</b> AnkiWeb</a></li>
+<li class="chapter" data-level="6.2" data-path="Synkronointi-eri-laitteiden-valilla.html"><a href="Synkronointi-eri-laitteiden-valilla.html#android-vs-ios"><i class="fa fa-check"></i><b>6.2</b> Android vs iOS</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="anki-ei-ole-kaikki-kaikessa.html"><a href="anki-ei-ole-kaikki-kaikessa.html"><i class="fa fa-check"></i><b>7</b> Anki ei ole kaikki kaikessa</a></li>
+<li class="chapter" data-level="8" data-path="Aiheesta-lisaa.html"><a href="Aiheesta-lisaa.html"><i class="fa fa-check"></i><b>8</b> Aiheesta lisää</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank"></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ankin perusteet</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Korttien kertaaminen ja valmiiden pakkojen lataaminen<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Jos et osaa käyttää Ankia ollenkaan, suosittelen lataamaan <a href="Kortit\Tervetuloa.apkg"><span class="download-btn">tämän</span></a> harjoituspakan. Siinä olevat kortit kävelyttävät sinut valmiiden pakkojen peruskäytön läpi. Lataamisen jälkeen paina Ankissa Import File</p>
+<ul>
+<li>Samoja asioita käsiteltiin osittain myös aikaisemmassa osiossa. Tämä osio käsittelee kuitenkin tarkemmin korttien kertaamista käytännössä.</li>
+</ul>
+<div id="valmiiden-pakkojen-lataaminen" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Valmiiden pakkojen lataaminen<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#valmiiden-pakkojen-lataaminen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ankin paras puoli on se, että se on todella yleisessä käytössä ympäri maailmaa. Tämän takia on olemassa paljon erilaisia muiden käyttäjien tekemiä valmiita pakkoja, joita voi ladata ja käyttää vapaasti.</p>
+<ul>
+<li><p>Pakkoja saa ladattua netistä, jonka jälkeen ne voi importtaa (painamalla Import File Ankin alareunasta) omalle profiililleen. Tarjolla olevia pakkoja voi selata, kun menee Perusnäkymästä -&gt; Get Shared</p>
+<ul>
+<li>Parempi paikka etsiä pakkoja on aihetta käsitteleviltä nettisivustoilta ja keskustelupalsoilta. Esim. lisäämällä aiheen perään anki ja reddit niin löytää usein paljon aiheeseen sopivaa keskustelua ja linkkejä hyviin pakkoihin.</li>
+</ul></li>
+</ul>
+<p>Ranki-pakka (eikä myöskään AnKing) ei ole tämän kaltainen normaalisti ladattavissa oleva pakka, vaan se tulee erikseen ladata AnkiCollab-addonin kautta. Videotutoriaali Rankin käyttöönottoon löytyy <a href="https://youtu.be/XwG-Fju94tU?si=GvWol_dUWFcYvvAM">täältä</a></p>
+</div>
+<div id="numerot" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Numerot?<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#numerot" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Etusivulla näkyy pakan kohdalla yksi-kolme numeroa.</p>
+<ul>
+<li><strong>Sininen</strong> numero on New-kohdan numero ja kuvastaa sitä määrää kortteja, jotka ovat sinulle täysin uusia ja et ole vielä kertaakaan käynyt niitä läpi.</li>
+<li><strong>Punainen</strong> numero on Learn-kohdan numero ja kuvastaa sitä määrää kortteja, jotka eivät ole vielä läpäisseet kaikkia learnings-steppejä (käytännössä asetukset-kohdassa tehdyillä asetuksilla tarkoittavat kortteja, joiden kertausväli on 5 tai 20 minuuttia).</li>
+<li><strong>Vihreä</strong> numero on Due-kohdan numero ja kuvastaa sitä määrää kortteja, joita sinulle on keräytynyt intervallien perusteella kerrattavaksi edeltäviltä päiviltä.</li>
+</ul>
+<p><img src="Images/Numerot.PNG" /></p>
+</div>
+<div id="korttien-kertaaminen" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Korttien kertaaminen<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#korttien-kertaaminen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Valitse pakka (jossa on kortteja) klikkaamalla sitä -&gt; Study Now
+- Kortin alaruudussa näkyy Show Answer -&gt; pääsee kortin kääntöpuolelle
+- Kääntöpuolelta löytyy kortin vastaus, mahdollisesti lisätekstiä ja kuvia sekä alareunassa neljä nappia: Again, Hard, Good, Easy
+- Nappien päällä lukeva aikamäärä tarkoittaa sitä aikaa, jonka jälkeen kortti kysytään uudestaan.</p>
+<p><img src="Images/Answerbar.PNG" /></p>
+<div id="shortcutit" class="section level3 hasAnchor" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Shortcutit<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#shortcutit" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Ankin kautta kortteja kerratessa kannattaa hyödyntää shortcutteja. Tässä on yleisimmät shortcutit, jotka kannattaa ottaa haltuun:</p>
+<ul>
+<li><p>Spacebar = Show Answer / Good</p></li>
+<li><p>1 = Again</p></li>
+<li><p>2 = Hard</p></li>
+<li><p>3 = Good</p></li>
+<li><p>4 = Easy</p></li>
+<li><p>Ctrl + z = Palaa kortti taaksepäin / Undo (esim. jos teit virhemuokkauksen tai poistit kortin vahingossa niin tällä saat sen takaisin)</p></li>
+<li><p>Ctrl + j -&gt; suspend/unsuspend (hyllyttää/poistaa hyllystä)</p>
+<pre><code>  - Pro tip! 
+  Korttien läpikäymiseen voi käyttää myös mm. pelikonsoleiden ohjaimia 
+  Itse olen bindannut JoyToKey:llä PS4-ohjaimeeni X=3 (good) ja neliö=1 (again) </code></pre></li>
+</ul>
+</div>
+<div id="again-hard-good-vai-easy" class="section level3 hasAnchor" number="5.3.2">
+<h3><span class="header-section-number">5.3.2</span> Again, Hard, Good vai Easy?<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#again-hard-good-vai-easy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p>Paina Again, jos et osannut korttia vastausta ennen sen kääntämistä</p></li>
+<li><p>Paina Good, jos osasit kortin vastauksen ennen sen kääntämistä</p>
+<pre><code>  - Huom! Good tulee painaa myös siinä kohtaa, jos näkee kortin ensimmäistä kertaa. 
+  Tällöin ei tarvitse osata korttia täydellisesti. 
+  Jos kuitenkin seuraavalla tapaamisella et osaa korttia, niin paina Again. </code></pre></li>
+<li><p>Hard- ja Easy -painikkeita kannattaa painaa harvemmin niiden vahvoista vaikutuksista intervallialgoritmeihin johtuen.</p></li>
+</ul>
+<p>Nappuloista kannattaa painaa käytännössä vain Good (välilyönti/3) tai Again (1); älä valehtele itsellesi, että ”tiesit” jotain painamalla Hard (2).</p>
+<ul>
+<li>Hard tulee painaa vain, jos oikeasti osasit kortin, mutta se oli selvästi vaikeaa saada muistettua</li>
+<li>Hardin painaminen siinä tilanteessa, että ei oikeasti osannut korttia tai oli epävarma vastauksesta, nussii FSRS:n intervallit (vaikka ei käyttäisi FSRS:ää niin perusalgoritmillakin Hardin painaminen johtaa ns. ”ease hell” tilaan, jossa kortin Ease-factor pienee jokaisella Hard-napin painalluksella ja nopeasti kerrattavien korttien määrä nousee turhan suureksi)<br />
+</li>
+<li>Itse en käytännössä koskaan käytä Hard-nappia. Mietin, että jos en ole varma vastauksestani tai sen muistamisessa kestää turhan kauan, en oikeasti osaa kortin materiaalia -&gt; painan again</li>
+</ul>
+<p>Easy voi painaa, jos kortti on oikeasti todella helppo eikä koe tarvetta, että niin helppoa korttia tulisi kerrata kovinkaan paljoa.</p>
+<ul>
+<li>Jos kortti on oikeasti helppo, sen voi myös hyllyttää (suspend), jolloin se poistuu kertauskierrosta</li>
+</ul>
+</div>
+<div id="kertauksen-yleisperiaatteet" class="section level3 hasAnchor" number="5.3.3">
+<h3><span class="header-section-number">5.3.3</span> Kertauksen yleisperiaatteet<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#kertauksen-yleisperiaatteet" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Kaikki kerrattavat kortit tulee kerrata kokonaan joka päivä!</p>
+<ul>
+<li>Älä jätä kortteja kertymään, muuten kerrattavien korttien määrästä tulee nopeasti ylitsepääsemättömän suuri.</li>
+<li>Suosittelen itse vahvasti kertaamaan kaikki päivän kortit heti ensimmäisenä asiana aamulla, jotta ne eivät jää koskaan unohtumisen takia kertaamatta. Vasta näiden kertausten perään kannattaa katsoa uudet videot ja opiskella uudet kortit.</li>
+</ul>
+<p>Jos ei kertaa korttejaan niiden tullessa kerrattaviksi joka päivä, ei tule koskaan nauttimaan Ankin oikeasta hyödystä, eli tietojen liimaamisesta pitkään muistiin.</p>
+<ul>
+<li>Suosittelen kertaamaan kortteja senkin jälkeen, kun se kurssi, jota ne käsittelivät on loppu. Esimerkiksi suurimmasta osasta preklinikassa opetelluista korteista on massiivisesti hyötyä myös klinikassa ja preklinikan oppeja ei kannata unohtaa.</li>
+</ul>
+</div>
+<div id="keskity" class="section level3 hasAnchor" number="5.3.4">
+<h3><span class="header-section-number">5.3.4</span> Keskity!<a href="korttien-kertaaminen-ja-valmiiden-pakkojen-lataaminen.html#keskity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Yleisimmin käytän itse ns. ”cloze-deletion” (tarkemmin AnKingOverhaulin cloze) eli kortteja, joissa tulee muistaa vain yksi/muutama sana tietyn lauseen sisällä. Tällaisten korttien kertaamiseen tulisi lähes aina mennä alle 10 sekuntia (päivittäinen sekuntia per kortti -nopeus näkyy aina Ankin alareunasta).</p>
+<ul>
+<li>Ensimmäisellä kierrolla vieraiden korttien kanssa kannattaa tosin usein käyttää enemmän aikaa, jotta ehtii esim. lukea mahdollisen Extra-fieldin tekstin.</li>
+</ul>
+<p>Jos löysäilee ja kuluttaa kortteihin parikin sekuntia enemmän kuin keskittyneenä, kertyy päivittäinen Ankin käyttöaika todella nopeasti. Päivittäiset reviewsit voi helposti kertyä yli 500 korttiin, jonka lisäksi tulee vielä opiskella uusia kortteja.</p>
+<ul>
+<li>Jos kuluttaisi keskittyneenä 8 sekuntia per kortti vs. reelsejä toisella silmällä selaten 12 sekuntia per kortti, kuluttaisit 500 kortin kertaamiseen 67 minuutin sijaan 100 minuuttia. Ja tämä efekti vain korostuu päivittäisten korttimäärien kasvaessa.</li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="korttien-luominen-ja-organisointi.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="Synkronointi-eri-laitteiden-valilla.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/USERNAME/REPO/edit/BRANCH/04-Kertaaminen.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf", "_main.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

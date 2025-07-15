@@ -6,7 +6,7 @@ Ankin vanilja-asetukset eivät ole optimaaliset, jonka takia suosittelen muokkaa
 
 ## Teema 
 
-Light-teema on hyvin kirkas ja epämiellyttävä, suosittelen sen vaihtamista (Rankin default-värit myös on suunniteltu Dark-teemalle). 
+Light-teema on hyvin kirkas ja mielestäni epämiellyttävä, suosittelen sen vaihtamista (Rankin default-värit ovat myös suunniteltu Dark-teemalle). 
 
 - Mene Tools -> Preferences -> Appearance -> Theme -> Dark
 
@@ -32,9 +32,7 @@ Poistu Preferences-valikosta ja valitse jokin pakoistasi. Jos et ole ennen käyt
 
 - Paina "Save" ja sulje Options-valikko. 
 
-Suosittelen ainakin jossain kohtaa oppimaan, mitä eri asetukset tekevät. Sitten kun tietää perusteet Ankin algoritmista, voi muokata asetuksia omanlaiseksi.
-
-- Kts. asetusten selitys 
+Suosittelen ainakin jossain kohtaa opettelemaan, mitä eri asetukset tekevät. Sitten kun tietää perusteet Ankin algoritmista, voi muokata asetuksia oman maun mukaan. 
 
 
 

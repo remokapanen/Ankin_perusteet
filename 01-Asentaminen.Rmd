@@ -4,13 +4,17 @@
 
 Anki on ilmainen ohjelma, joka on saatavilla Windowsille, Macille ja Linuxille. Lataa ohjelma osoitteesta https://apps.ankiweb.net/.
 
+- Kun olut ladannut ja avannut ohjelman, sinun tulee valita käyttäjä. Voit jättää User 1:n omaksesi tai muuttaa sen nimeä, tällä ei ole sinänsä merkitystä tässä vaiheessa. Paina tämän jälkeen Open. 
+
+![](Images\Download.PNG)
+
 ## Lisäosat {#lisaosat}
 
 Lisäosat avaavat Ankin oikeat kyvykkyydet. Olen koonnut [<span class="download-btn">tiedoston</span>](addons21.zip), jossa on kaikki ainakin nyt alkuun suosittelemani lisäosat. 
 
 - Mene Tools -> Add-ons -> Install from file 
 
-Lisäosia voi myös ladata yksitellen koodien avulla: Tools -> Add-ons -> Get Add-ons -> Code-kohtaan alla olevia koodeja. Yllä olevassa zip-tiedostossa on seuraavat lisäosat:
+Lisäosia voi myös ladata yksitellen koodien avulla: Tools -> Add-ons -> Get Add-ons -> Code-kohtaan alla olevia koodeja _yksi kerrallaan._ Yllä olevassa zip-tiedostossa on seuraavat lisäosat:
 
 - Lääketiedepainotteiset
     - 1957538407 (AnkiCollab) 
@@ -34,3 +38,5 @@ Lisäosia voi myös ladata yksitellen koodien avulla: Tools -> Add-ons -> Get Ad
 
 
 *Aina lisäosien lisäämisen jälkeen on syytä sulkea Anki ja avata se uudestaan.*
+
+![](Images\Add-ons-install.gif)
